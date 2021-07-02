@@ -14,7 +14,7 @@ export default function (Vue, { router, head, isClient }) {
   }),
   head.meta.push({
     name: 'keywords',
-    content: 'Akure, Data science, market research, survey, nigeria'
+    content: 'Heart disease, prediction, cardiovascular, Heart issue'
   }),
   head.script.push({
     src: 'https://static.mobilemonkey.com/js/1309354802459946.js',

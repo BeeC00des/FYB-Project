@@ -6,12 +6,10 @@ module.exports = {
       extend: {
         colors: {
           primary: '#000066',
-          'hero-text': '#D7E1E5',
           secondary: '#FF6600',
           light: '#FDFDFD',
           dark: '#343738',
           ash: '#343738',
-          'hero-color': '#193F52',
         },
         
       },

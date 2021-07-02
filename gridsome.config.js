@@ -17,7 +17,7 @@ function addStyleResource(rule) {
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Zacrac',
+  siteName: 'cardio',
   titleTemplate: `%s`,
   chainWebpack(config) {
     // Load variables for all vue-files
@@ -30,20 +30,5 @@ module.exports = {
   plugins: [{
       use: "gridsome-plugin-tailwindcss",
     },
-    // {
-    //   use: 'gridsome-source-firestore',
-    //   options: {
-    //     // Update this with your service credentials file
-    //     credentials: require('./serviceAccount.json'),
-    //     debug: true,
-    //     collections: [{
-    //         ref: (db => db.collection('blog').orderBy('timestamp', 'desc')),
-    //         slug: (doc, slugify) => {
-    //           return `/blog/${slugify(doc.data.title)}`
-    //         }
-    //       }
-    //     ]
-    //   }
-    // }
   ],
 }

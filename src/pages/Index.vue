@@ -18,12 +18,14 @@
       <div class="flex  mt-5 mb-5 lg:mt-0 mx-auto  w-full section-2-box p-10 ">
       <div class="lg:w-3/12 w-full image-container mx-12">
       </div>
-      <div class="lg:w-9/12  w-full text-container ">
-        <h5 class="header5 text-secondary">Data is Power. Knowledge is Power</h5>
-        <p>
-          Data has and will always be everywhere – but data professionals are scarce.
-          The opportunities in the data professionals are enormous-in large and small organizations, NGOs, academia, et cetera. Data professionals are needed everywhere. NOW is the best time to begin a journey to becoming a certified data professional.
-          Choose from hundreds of courses on our platform on Excel |Python | R | Power BI | Tableau | SQL | SPSS
+      <div class="lg:w-6/12 ml-16 w-full text-container text-white">
+        <h5 class="py-3 text-3xl font-bold">Heart Disease Overview</h5>
+        <p class="text-base py-3 leading-relaxed">
+          The heart controls the pumping and circulation of blood while clearing harmful waste substances in the body.
+        </p>
+        <p class="text-base py-5 leading-relaxed">
+          Any condition affecting the heart is also called cardiovascular disease (CVDs) and 
+          it’s the number 1 cause of death globally, taking an estimate of 17.9 million lives loss each year.
         </p>
         </div>
       </div>
@@ -195,28 +197,9 @@ html {
 }
 
 
-i.underlined {
-  position: relative;
-  width: auto;
-  font-style: normal;
-  &::after {
-    content: " ";
-    display: inline;
-    position: absolute;
-    left: 0;
-    bottom: -80%;
-    width: 100%;
-    height: 100%;
-    background: url("/underline.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  &.ulong::after {
-    background: url("/underline-long.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-}
+
+
+
 
 
 .zl-numbering {
