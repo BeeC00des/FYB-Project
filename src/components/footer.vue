@@ -57,7 +57,6 @@
   .icon-text{
     color:#000000;
   }
-  
 }
 
 .social-media:hover{

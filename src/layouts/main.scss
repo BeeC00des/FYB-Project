@@ -36,6 +36,12 @@
     @apply text-primary;
 }
 
+.header2 {
+    font-size: 24px;
+    @apply inline-block;
+    @apply font-extrabold;
+}
+
 .text-color-primary{
     color:#CA4747;
 }
