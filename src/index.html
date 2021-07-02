@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ${htmlAttrs}>
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0SN2SBZRM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-D0SN2SBZRM');
+  </script>
+  ${head}
+</head>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0&appId=368016734450936&autoLogAppEvents=1"
+  nonce="dNe6qdWv"></script>
+
+<body ${bodyAttrs}>
+  ${app}
+  ${scripts}
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script
+    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+  </script>
+</body>
+
+</html>
