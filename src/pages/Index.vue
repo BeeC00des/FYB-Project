@@ -1,25 +1,29 @@
 <template>
   <Layout>
-    <div class="w-full flex lg:flex-row justify-center items-center section-1 lg:px-20 px-5 py-10 ">
-      <div class="flex flex-col flex-nowrap lg:w-5/12 w-full">
-        <h1 class="mb-6 header1 inline">
+    <div class="w-full lg:flex lg:flex-row justify-center items-center section-1 lg:px-20 px-5 py-10 ">
+      <div class="lg:flex flex-col flex-nowrap lg:w-5/12 w-full">
+        <h1 class="mb-6 header1">
          Healthy heart for good living
         </h1>
-        <p class="p-text">We give insight about your heart status,<br/> and educate people on heart disease</p>
+        <p class="p-text">
+        We give insight about your heart status,<br/> 
+        and educate people on heart disease</p>
         <div class="flex mt-8">
             <g-link to="/Signup" class="btn-primary2"> Explore </g-link>
         </div>
       </div>
       <div class="flex lg:w-7/12 w-full lg:mt-32 mt-10">
-        <img src="../assets/img/heart.png" alt />
+        <img src="../assets/img/heart.png" alt="Heart treament" />
       </div>
     </div> 
-    <div class="flex flex-col lg:flex-row w-full justify-between px-5 py-5 lg:px-20 lg:py-10 section-2 mt-32">
-      <div class="flex  mt-5 mb-5 lg:mt-0 mx-auto  w-full section-2-box p-10 ">
-      <div class="lg:w-3/12 w-full image-container mx-12">
+    
+    <div class="lg:flex  lg:flex-row w-full justify-between px-5 py-5 lg:px-20 lg:py-10 section-2 lg:mt-32 mt-0">
+      <div class="lg:flex mt-5 mb-5 lg:mt-0 mx-auto  w-full section-2-box lg:p-10 p-0">
+      <div class="lg:w-3/12 w-full image-container lg:mx-12 mx-0  lg:my-0 my-5 flex items-center">
+        <img src="../assets/img/heart-beat.png" alt="Heart">
       </div>
-      <div class="lg:w-6/12 ml-16 w-full text-container text-white">
-        <h5 class="py-3 text-3xl font-bold">Heart Disease Overview</h5>
+      <div class="lg:w-6/12 w-full lg:ml-16  lg:px-0 px-5  text-white">
+        <h5 class="py-3 lg:text-3xl text-2xl font-bold">Heart Disease Overview</h5>
         <p class="text-base py-3 leading-relaxed">
           The heart controls the pumping and circulation of blood while clearing harmful waste substances in the body.
         </p>
@@ -27,136 +31,115 @@
           Any condition affecting the heart is also called cardiovascular disease (CVDs) and 
           it’s the number 1 cause of death globally, taking an estimate of 17.9 million lives loss each year.
         </p>
+      </div>
+      </div>
+    </div>
+
+    <div class="lg:flex lg:flex-row w-full justify-between px-5 py-5 lg:px-20 section-3 lg:mt-10 mt-0">
+      <div class="lg:flex  mt-5 mb-5 lg:mt-0 mx-auto  w-full p-10 ">
+      <div class="lg:w-9/12 lg:ml-16 ml-0 w-full ">
+        <h5 class="py-3 lg:text-3xl text-2xl font-bold text-color-primary text-center">Causes Of Heart Disease </h5>
+        <div class="lg:flex w-11/12">
+          <div class="lg:w-4/12 w-full text-left py-5">
+            <div class="icon-shape icon-color1 mb-2 flex justify-center items-center">
+              <span class="material-icons icon-style">smoking_rooms</span>
+            </div>
+            <h2 class="font-medium text-lg pb-1">Smoking</h2>
+            <p class="font-light text-sm text-color-secondary leading-5">Changes the heart composition</p>
+          </div>
+          <div class="lg:w-4/12 w-full text-left lg:px-5 px-0 py-5">
+            <div class="icon-shape icon-color2 mb-2 flex justify-center items-center">
+              <span class="material-icons icon-style">smoking_rooms</span>
+            </div>
+            <h2 class="font-medium text-lg pb-1">Poor Diet</h2>
+            <p class="font-light text-sm text-color-secondary leading-5">Blocks the arteries with plaque</p>
+          </div>
+          <div class="lg:w-4/12 w-full text-left lg:px-5 px-0  py-5">
+            <div class="icon-shape icon-color1 mb-2 flex justify-center items-center">
+              <span class="material-icons icon-style">smoking_rooms</span>
+            </div>
+            <h2 class="font-medium text-lg pb-1">High Blood Pressure </h2>
+            <p class="font-light text-sm text-color-secondary leading-5">Reduces the elasticity of the artery.</p>
+          </div>
+        </div>
+        <div class="lg:flex w-11/12">
+          <div class="lg:w-4/12 w-full text-left lg:pr-5 pr-0 py-5">
+            <div class="icon-shape icon-color2 mb-2 flex justify-center items-center">
+              <span class="material-icons icon-style">smoking_rooms</span>
+            </div>
+            <h2 class="font-medium text-lg pb-1">Obesity</h2>
+            <p class="font-light text-sm text-color-secondary leading-5">Causes blood to be supppy to the heart</p>
+          </div>
+          <div class="lg:w-4/12 w-full text-left lg:px-5 px-0 py-5">
+            <div class="icon-shape icon-color1 mb-2 flex justify-center items-center">
+              <span class="material-icons icon-style">smoking_rooms</span>
+            </div>
+            <h2 class="font-medium text-lg pb-1">High cholesterol</h2>
+            <p class="font-light text-sm text-color-secondary leading-5">Walls are build up the in arteries</p>
+          </div>
+          <div class="lg:w-4/12  w-full text-left lg:px-5 px-0 py-5">
+            <div class="icon-shape icon-color2 mb-2 flex justify-center items-center">
+              <span class="material-icons icon-style">smoking_rooms</span>
+            </div>
+            <h2 class="font-medium text-lg pb-1">Diabetes</h2>
+            <p class="font-light text-sm text-color-secondary leading-5">Damage blood vessel and nerve</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-3/12 w-full plain-container mx-12 flex items-center"></div>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row w-full justify-between px-5 py-5 lg:px-20 lg:py-10 section-2 mt-10">
+        <div class="lg:flex mt-5 mb-5 lg:mt-0 lg:mx-auto  w-full section-2-box lg:p-10 p-5">
+        <div class="lg:w-3/12 w-full diagnose-container lg:mx-12 mx-1 my-3 lg:my-0 flex items-center"></div>
+        <div class="lg:w-8/12 lg:ml-16 ml-0 lg:my-0 my-5 w-full text-center text-white">
+          <h5 class="lg:py-3 py-5 lg:text-3xl text-2xl font-bold">Diagnosis Steps For Heart Disease</h5>
+          <div class="lg:flex w-11/12">
+            <div class="lg:w-6/12 w-full text-left py-5">
+              <div class="icon-shape  mb-2 flex">
+                <span class="material-icons icon-style">smoking_rooms</span>
+              </div>
+              <h2 class="font-medium text-lg pb-1">Physical Examination</h2>
+              <p class="font-light text-sm leading-5">Changes the heart composition</p>
+            </div>
+            <div class="lg:w-6/12 w-full text-left py-5">
+              <div class="icon-shape  mb-2 flex ">
+                <span class="material-icons-outlined">looks_two</span>
+              </div>
+              <h2 class="font-medium text-lg pb-1">Take medical test</h2>
+              <p class="font-light text-sm leading-5">Reduces the elasticity of the artery.</p>
+            </div>
+          </div>
+          <div class="lg:flex w-11/12 lg:my-7 my-1">
+            <div class="lg:w-6/12 w-full text-left py-5">
+              <div class="icon-shape  mb-2 flex">
+                <i class="uil uil-stethoscope-alt text-white text-3xl"></i>
+              </div>
+              <h2 class="font-medium text-lg pb-1">Get medical result</h2>
+              <p class="font-light text-sm leading-5">Changes the heart composition</p>
+            </div>
+            <div class="lg:w-6/12 w-full text-left  py-5">
+              <div class="icon-shape  mb-2 flex ">
+                <span class="material-icons-outlined">looks_four</span>
+              </div>
+              <h2 class="font-medium text-lg pb-1">Start treament</h2>
+              <p class="font-light text-sm leading-5">Reduces the elasticity of the artery.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-     <!--  
-    <div
-      class="w-full flex flex-col-reverse lg:flex-row-reverse lg:px-20 items-center lg:justify-between px-5 py-10 lg:py-10"
-    >
-      <div class="lg:w-5/12 w-full">
-        <div class="relative">
-          <div class="zl-numbering green -mb-5">
-            <h1>01</h1>
-          </div>
-          <h2 class="mb-6 header2 relative">
-            <i class="text-secondary">Self pace</i> courses
-          </h2>
-        </div>
-        <p
-          class="text-gray-800 text-base"
-        >Our definition of learning flexibility is accessibility- anywhere, anytime, and on any device. Explore our course catalog for self-paced recorded courses which you can at your pace and convenience. With a one-time purchase, gain a life-time access to self-paced courses and learn both on desktop and mobile.</p>
-        <div class="flex justify-left align-center mt-8">
-          <a class="btn-primary" href>Explore</a>
-        </div>
-      </div>
-      <div>
-        <img class="self-pace-image lg:-ml-10" src="/self-paced.png" alt="instrutor led courses" />
+    <div class="flex w-full justify-center items-center px-5 py-5 lg:px-20 section-3 my-5">
+      <div class="lg:w-9/12 mx-auto w-full">
+        <h5 class="pb-3 text-3xl font-bold text-center ">Stay Updated</h5>
+        <p class="p-text  text-center">Join our mailing list for vital heart information</p>
+        <div class="flex items-center justify-center py-5">
+          <input type="submit" value="Email Address" class="py-3 lg:w-6/12 w-full text-left px-5 text-tiny input">
+        </div> 
       </div>
     </div>
-    
-    <div
-      class="w-full flex flex-col-reverse lg:flex-row lg:px-20 items-center lg:justify-between px-5 py-10 lg:py-10"
-    >
-      <div class="lg:w-5/12 w-full h-full lg:pt-10">
-        <div class="relative">
-          <div class="zl-numbering green -mb-5">
-            <h1>02</h1>
-          </div>
-          <h2 class="mb-6 header2">
-            <i class="text-secondary">Instructor-Led</i> Programs
-          </h2>
-        </div>
-        <p
-          class="text-gray-800 text-base"
-        >Do you learn best interacting live with instructors and other learners? Our Instructor-Led Programs are ideal for learners that prefer a one-on-one interaction and live classes. Join live-classes, ask and get answers to your questions in real-time, and personalized feedbacks on assignments and projects</p>
-        <div class="flex justify-left align-center mt-8">
-          <a class="btn-primary" href>Explore</a>
-        </div>
-      </div>
-      <div>
-        <img class="instructor-led-image" src="/kkk.png" alt="instrutor led courses" />
-      </div>
-    </div>
-    
-    <div
-      class="w-full flex flex-col lg:px-20 bg-blue-100 items-end lg:justify-between px-5 py-10 lg:pt-10 overflow-hidden relative"
-    >
-      <div class="lg:w-5/12 w-full h-full lg:pt-10 lg:absolute left-0 quick-solve-box">
-        <div class="relative">
-          <div class="zl-numbering green -mb-5">
-            <h1>03</h1>
-          </div>
-          <h2 class="mb-6 header2">
-            <i class="text-secondary"></i> QuickSolve
-          </h2>
-        </div>
-        <p
-          class="text-gray-800 text-sm"
-        >Sometimes you just need an expert to solve your specific problems or answer your questions, and that’s what the ZR QUIKSOLVE solution is all about. We understand that learning never stops even as a data professional, you might get stuck once in a while and need real-time help on some data projects. You post your data questions, and we answer as soon quick as possible OR connect you with one of our instructors for one-on-one assistance.</p>
-        <div class="flex justify-left align-center mt-8">
-          <a class="btn-primary" href>Explore</a>
-        </div>
-      </div>
-      <div class="lg:-mb-24">
-        <img class="instructor-led-image" src="/quick-solve.png" alt="instrutor led courses" />
-      </div>
-    </div>
-    
-    <div
-      class="flex flex-col lg:flex-row-reverse w-full justify-between px-5 lg:px-20 lg:items-center lg:my-20 my-10"
-    >
-      <div class="w-full lg:w-6/12">
-        <img class="sec-3-img w-full" src="/code-academy.jpeg" alt />
-      </div>
-      <div class="flex flex-col mt-5 lg:mt-0 flex-nowrap lg:mr-20 lg:w-4/12">
-        <div class="relative">
-          <div class="zl-numbering green -mb-5">
-            <h1>04</h1>
-          </div>
-          <h1 class="header2 mb-6">
-            CodeCamp
-          </h1>
-        </div>
-        <p>
-          Coding and programming are non-negotiable in the data profession- especially for data science, data engineering, and machine learning. Use our CodeCamp to brush up your programming skills 
-        </p>
-        <p>Coming soon</p>
-      </div>
-    </div>
-    
-    <div class="w-full lg:px-20 px-5 lg:py-20 py-10 lg:mb-56">
-      <div class="section-6 p-5 lg:p-20 justify-between flex flex-col-reverse lg:flex-row w-full">
-        <div class="w-full lg:w-5/12">
-          <h1 class="header2 text-white">Our student love us and our strategies</h1>
-          <div>
-            <div class="px-6 testimonial-card mt-16 py-10">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, similique eos ipsam voluptate incidunt saepe amet magnam a doloremque dolor tempore delectus ratione dolore quas corporis eum! Eveniet, culpa consequatur!</p>
-              <div class="flex flex-nowrap mt-5 items-center">
-                <img class="cs-img" src="/asw.jpg" alt />
-                <span class="pl-5">
-                  <p class="font-bold text-primary">Dele Ali</p>
-                  <p class="text-sm">Data science incubator</p>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex">
-          <div class="cs-1">
-            <img src="/222.jpeg" alt />
-          </div>
-          <div class="cs-1 yel items-end">
-            <img src="/222.jpeg" alt />
-          </div>
-          <div class="flex flex-col flex-nowrap items-center">
-            <img class="cs-img" src="/222.jpeg" alt />
-            <div class="cs-1 red"></div>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </Layout>
 </template>
 
@@ -170,6 +153,12 @@ export default {};
 html {
   scroll-behavior: smooth;
 }
+.header1 {
+    font-size: 48px;
+    @include sm {
+      font-size: 32px;
+    }
+}
 
 .section-1 {
   height: 500px;
@@ -182,6 +171,10 @@ html {
 .p-text{
   color:rgba(32, 55, 94, 0.75);
   line-height:28px;
+  @include sm {
+    line-height:22px;
+    font-size: 15px;
+  }
 }
 .section-2 {
   .section-2-box{
@@ -190,13 +183,59 @@ html {
     background-color: #0654DB;
     .image-container{
       height: 400px;
-      background-color: #fff;
+      background-color: #ffffff;
       border-radius: 15px;
     }
-  }
+     @include sm {
+        height:auto;
+     } 
+  } 
 }
 
+.section-3{
+  .plain-container{
+      height: 400px;
+      border-radius: 15px;
+      background-color: #0654DB;
+       @include sm {
+        display:none;
+     } 
+    }
+    .icon-shape{
+      height:35px;
+      width:35px;
+      border-radius:7px; 
+    }
+    .icon-style{
+      color:white;
+      font-size:22px;
+    }
+    .icon-color1{
+      background-color: #0654DB;
+      box-shadow:0, 0, 4px, #0654DB;
+    }
+    .icon-color2{
+      background-color: #CA4747;
+      box-shadow:0, 0, 4px, #CA4747;
+    }
+   @include sm {
+        height:auto;
+     } 
+}
 
+.diagnose-container{
+  height: 400px;
+  background-image:url(../assets/img/diagnosis.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.input{
+  border-radius:10px;
+  background-color:#E5E5E5;
+}
 
 
 

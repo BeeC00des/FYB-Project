@@ -12,6 +12,10 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://unicons.iconscout.com/release/v2.0.1/css/unicons.css'
   }),
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
+  }),
   head.meta.push({
     name: 'keywords',
     content: 'Heart disease, prediction, cardiovascular, Heart issue'
