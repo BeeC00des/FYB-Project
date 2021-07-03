@@ -31,7 +31,6 @@
       </div>
     </div>
     <div class="lg:w-6/12 w-full items-center justify-center">
-      <!-- <h1 class="header2 mb-3 px-12"></h1> -->
       <div class="input-section lg:w-10/12 w-full mx-auto mt-12">
        <div class="py-4">
           <input type="text" id="textInput" placeholder="Guardian's Fullname" class="py-3 w-full  px-5 text-tiny input font-normal outline-none">
