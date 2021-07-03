@@ -46,6 +46,9 @@
               <g-link to="/Contact">Contact</g-link>
               <g-link to="/Login">Login</g-link>
               <g-link to="/Sign up">Sign up</g-link>
+              <g-link to="/register">Register</g-link>
+              <g-link to="/test">Test Input</g-link>
+              <g-link to="/result">Result</g-link>
             </nav>
           </menu>
         </div>
