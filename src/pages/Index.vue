@@ -144,7 +144,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  metaInfo: {
+    title: "Home page | Cardio heart disease status",
+  },
+};
 </script>
 
 <style lang="scss">

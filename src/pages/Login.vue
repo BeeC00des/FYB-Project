@@ -32,7 +32,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "404 Page not found | zacrac",
+    title: "Cardio Login | Heart disease status",
   },
 };
 </script>

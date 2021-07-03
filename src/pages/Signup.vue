@@ -15,11 +15,11 @@
       <h1 class="header2 mb-8 lg:mt-0 mt-10 px-5">Sign up</h1>
       <div class="input-section w-full px-5">
         <div class="py-6 lg:flex lg:w-11/12 w-full">
-         <input type="text" id="textInput" placeholder="First Name" class="py-3 w-full px-5 text-tiny input font-normal outline-none lg:mr-12 mr-0 lg:mt-0 mb-10">
+         <input type="text" id="textInput" placeholder="First Name" class="py-3 w-full px-5 text-tiny input font-normal outline-none lg:mr-12 mr-0 lg:mb-0 mb-10">
          <input type="text" id="textInput" placeholder="Last Name" class="py-3 w-full px-5 text-tiny input font-normal outline-none">
         </div>
       <div class="py-6 lg:flex lg:w-11/12 w-full">
-         <input type="email" id="textInput" placeholder="Email Address" class="py-3 w-full px-5 text-tiny input font-normal outline-none lg:mr-12 mr-0 lg:mt-0 mb-10">
+         <input type="email" id="textInput" placeholder="Email Address" class="py-3 w-full px-5 text-tiny input font-normal outline-none lg:mr-12 mr-0 lg:mb-0 mb-10">
          <select name="usertype" class="py-3 w-full px-5 text-tiny input font-normal outline-none">
             <option class="py-2 px-2" value="" disabled selected hidden>Category</option>
             <option>Patient</option>
@@ -28,7 +28,7 @@
          </select>
         </div>
         <div class="py-6 lg:flex lg:w-11/12 w-full">
-         <input type="password" id="textInput" placeholder="Password" class="py-3 w-full px-5 text-tiny input font-normal outline-none lg:mr-12 mr-0 lg:mt-0 mb-10">
+         <input type="password" id="textInput" placeholder="Password" class="py-3 w-full px-5 text-tiny input font-normal outline-none lg:mr-12 mr-0 lg:mb-0 mb-10">
          <input type="password" id="textInput" placeholder="Confirm password" class="py-3 w-full px-5 text-tiny input font-normal outline-none">
         </div>
        </div>
@@ -43,7 +43,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "404 Page not found | zacrac",
+    title: "Cardio signup | Heart disease status",
   },
 };
 </script>

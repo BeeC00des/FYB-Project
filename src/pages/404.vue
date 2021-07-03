@@ -22,7 +22,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "404 Page not found | zacrac",
+    title: "404 error page | Cardio",
   },
 };
 </script>
