@@ -42,6 +42,18 @@
     @apply font-extrabold;
 }
 
+.header3 {
+    font-size: 18px;
+    @apply inline-block;
+    @apply font-bold;
+}
+
+.header4 {
+    font-size: 16px;
+    @apply inline-block;
+    @apply font-bold;
+}
+
 .text-color-primary{
     color:#CA4747;
 }

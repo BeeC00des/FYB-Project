@@ -6,7 +6,7 @@
     </g-link>
   </div>
   <div class="lg:flex w-11/12 mx-auto lg:px-12">
-    <div class="lg:w-6/12 w-full items-center justify-center ">
+    <div class="lg:w-6/12">
       <h1 class="header2 mb-3 px-12">Kindly fill the form below</h1>
       <div class="input-section lg:w-10/12 w-full mx-auto">
         <div class="py-4 lg:flex">
@@ -30,7 +30,7 @@
          <input type="submit"  value="Submit" class="py-3 text-center text-base btn-form font-light outline-none">
       </div>
     </div>
-    <div class="lg:w-6/12 w-full items-center justify-center">
+    <div class="lg:w-6/12 w-full">
       <div class="input-section lg:w-10/12 w-full mx-auto mt-12">
        <div class="py-4">
           <input type="text" id="textInput" placeholder="Guardian's Fullname" class="py-3 w-full  px-5 text-tiny input font-normal outline-none">
