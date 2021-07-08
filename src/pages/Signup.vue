@@ -6,8 +6,8 @@
                <p class="logo-style">Cardio</p>
          </g-link>
       </div>
-      <div class="lg:px-20 px-5 flex login-description items-center justify-left lg:mt-20">
-          <p class="text-3xl font-bold text-white lg:mb-0 mb-10">Few clicks away from checking your heart status result.</p>
+      <div class="lg:px-20 px-3 flex login-description items-center justify-left lg:mt-20">
+          <p class="text-3xl font-bold text-white lg:mb-0 mb-10 px-2">Few clicks away from checking your heart status result.</p>
       </div>
    </div>
    <div class="lg:w-8/12 w-full flex items-center justify-left bg-color2 lg:px-5 px-2">

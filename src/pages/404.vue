@@ -10,7 +10,7 @@
       <img src="../assets/img/Error-img.png" alt class="error-img-size"/>
     </div>
     <div class=" flex w-full items-center justify-center">
-       <p class="error-text">Something went wrong!</p>
+       <p class="error-text ">Something went wrong!</p>
     </div>
     <div class="flex mt-5 items-center justify-center text-base">
       <g-link to="/" class="btn-secondary"> Go Back </g-link>
@@ -38,9 +38,16 @@ export default {
     font-size: 24px;
     font-weight: 500;
     color:#20375E;
+    @include sm{
+      font-size: 20px;
+    }
   }
   .error-img-size{
     width:550px;
     height:350px;
+    @include sm{
+      width:250px;
+      height:200px;
+    }
   }
 </style>

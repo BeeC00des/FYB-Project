@@ -12,7 +12,7 @@
             <g-link to="/Signup" class="btn-primary2"> Explore </g-link>
         </div>
       </div>
-      <div class="flex lg:w-7/12 w-full lg:mt-32 mt-10">
+      <div class="flex lg:w-7/12 w-full lg:mt-32 mt-3">
         <img src="../assets/img/heart.png" alt="Heart treament" />
       </div>
     </div> 
@@ -20,25 +20,29 @@
     <div class="lg:flex  lg:flex-row w-full justify-between px-5 py-5 lg:px-20 lg:py-10 section-2 lg:mt-32 mt-0">
       <div class="lg:flex mt-5 mb-5 lg:mt-0 mx-auto  w-full section-2-box lg:p-10 p-0">
       <div class="lg:w-3/12 w-full image-container lg:mx-12 mx-0  lg:my-0 my-5 flex items-center">
-        <img src="../assets/img/heart-beat.png" alt="Heart">
+        <img src="../assets/img/heart-beat.png" alt="Heart" class="img-heart">
       </div>
-      <div class="lg:w-6/12 w-full lg:ml-16  lg:px-0 px-5  text-white">
-        <h5 class="py-3 lg:text-3xl text-2xl font-bold">Heart Disease Overview</h5>
+      <div class="lg:w-6/12 w-full lg:ml-16  lg:px-0 px-5 text-white">
+        <h5 class="lg:text-3xl text-2xl font-bold">Heart Disease Overview</h5>
         <p class="text-base py-3 leading-relaxed">
           The heart controls the pumping and circulation of blood while clearing harmful waste substances in the body.
         </p>
-        <p class="text-base py-5 leading-relaxed">
-          Any condition affecting the heart is also called cardiovascular disease (CVDs) and 
-          it’s the number 1 cause of death globally, taking an estimate of 17.9 million lives loss each year.
+        <p class="text-base py-3 leading-relaxed">
+          Any condition affecting the heart is called Heart Disease. It is also known as cardiovascular disease (CVDs). 
+          It’s the number 1 cause of death globally, taking an estimate of 17.9 million lives loss each year.
+        </p>
+        <h5 class="lg:text-2xl text-lg font-bold">Heart Disease Symptoms</h5>
+        <p class="text-base py-3 leading-relaxed">
+          Chest pain, difficulty in breathing, fatigue and lightheadedness, swelling due to fluid retention, irregular heart beat, nausea, choking sensation.
         </p>
       </div>
       </div>
     </div>
 
     <div class="lg:flex lg:flex-row w-full justify-between px-5 py-5 lg:px-20 section-3 lg:mt-10 mt-0">
-      <div class="lg:flex  mt-5 mb-5 lg:mt-0 mx-auto  w-full p-10 ">
+      <div class="lg:flex  lg:mt-5 mt-2 mb-5 lg:mt-0 mx-auto  w-full lg:p-10 p-5">
       <div class="lg:w-9/12 lg:ml-16 ml-0 w-full ">
-        <h5 class="py-3 lg:text-3xl text-2xl font-bold text-color-primary text-center">Causes Of Heart Disease </h5>
+        <h5 class="lg:pb-7 pb-3 lg:text-3xl text-2xl font-bold text-color-primary lg:text-center text-center">Causes Of Heart Disease </h5>
         <div class="lg:flex w-11/12">
           <div class="lg:w-4/12 w-full text-left py-5">
             <div class="icon-shape icon-color1 mb-2 flex justify-center items-center">
@@ -56,7 +60,7 @@
           </div>
           <div class="lg:w-4/12 w-full text-left lg:px-5 px-0  py-5">
             <div class="icon-shape icon-color1 mb-2 flex justify-center items-center">
-              <span class="material-icons icon-style">smoking_rooms</span>
+              <i class="uil uil-medical-drip icon-style"></i>
             </div>
             <h2 class="font-medium text-lg pb-1">High Blood Pressure </h2>
             <p class="font-light text-sm text-color-secondary leading-5">Reduces the elasticity of the artery.</p>
@@ -86,26 +90,31 @@
           </div>
         </div>
       </div>
-      <div class="lg:w-3/12 w-full plain-container mx-12 flex items-center"></div>
+      <div class="lg:w-3/12 w-full plain-container mx-12 flex items-center">
+          <img src="../assets/img/heart-beat.png" alt="Heart">
+      </div>
+        
       </div>
     </div>
 
     <div class="flex flex-col lg:flex-row w-full justify-between px-5 py-5 lg:px-20 lg:py-10 section-2 mt-10">
-        <div class="lg:flex mt-5 mb-5 lg:mt-0 lg:mx-auto  w-full section-2-box lg:p-10 p-5">
-        <div class="lg:w-3/12 w-full diagnose-container lg:mx-12 mx-1 my-3 lg:my-0 flex items-center"></div>
+        <div class="lg:flex mt-5 mb-5 lg:mt-0 lg:mx-auto w-full section-2-box lg:p-10 p-5">
+        <div class="lg:w-3/12 w-full diagnose-container lg:mx-12 mx-0 my-3 lg:my-0 flex items-center"></div>
         <div class="lg:w-8/12 lg:ml-16 ml-0 lg:my-0 my-5 w-full text-center text-white">
-          <h5 class="lg:py-3 py-5 lg:text-3xl text-2xl font-bold">Diagnosis Steps For Heart Disease</h5>
+          <div class="lg:w-10/12">
+            <h5 class="lg:py-3 py-5 lg:text-3xl text-2xl font-bold">Diagnosis Steps For Heart Disease</h5>
+          </div>
           <div class="lg:flex w-11/12">
             <div class="lg:w-6/12 w-full text-left py-5">
-              <div class="icon-shape  mb-2 flex">
-                <span class="material-icons icon-style">smoking_rooms</span>
+              <div class="mb-2 flex">
+                <span class="icon-style-number">01</span>
               </div>
               <h2 class="font-medium text-lg pb-1">Physical Examination</h2>
               <p class="font-light text-sm leading-5">Changes the heart composition</p>
             </div>
             <div class="lg:w-6/12 w-full text-left py-5">
-              <div class="icon-shape  mb-2 flex ">
-                <span class="material-icons-outlined">looks_two</span>
+              <div class="mb-2 flex ">
+                 <span class="icon-style-number">02</span>
               </div>
               <h2 class="font-medium text-lg pb-1">Take medical test</h2>
               <p class="font-light text-sm leading-5">Reduces the elasticity of the artery.</p>
@@ -113,15 +122,15 @@
           </div>
           <div class="lg:flex w-11/12 lg:my-7 my-1">
             <div class="lg:w-6/12 w-full text-left py-5">
-              <div class="icon-shape  mb-2 flex">
-                <i class="uil uil-stethoscope-alt text-white text-3xl"></i>
+              <div class="mb-2 flex">
+                 <span class="icon-style-number">03</span>
               </div>
               <h2 class="font-medium text-lg pb-1">Get medical result</h2>
               <p class="font-light text-sm leading-5">Changes the heart composition</p>
             </div>
             <div class="lg:w-6/12 w-full text-left  py-5">
-              <div class="icon-shape  mb-2 flex ">
-                <span class="material-icons-outlined">looks_four</span>
+              <div class="mb-2 flex ">
+                 <span class="icon-style-number">04</span>
               </div>
               <h2 class="font-medium text-lg pb-1">Start treament</h2>
               <p class="font-light text-sm leading-5">Reduces the elasticity of the artery.</p>
@@ -196,6 +205,8 @@ html {
   } 
 }
 
+
+
 .section-3{
   .plain-container{
       height: 400px;
@@ -226,6 +237,11 @@ html {
         height:auto;
      } 
 }
+ .icon-style-number{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+    }
 
 .diagnose-container{
   height: 400px;

@@ -28,7 +28,7 @@
           
           <g-link to="/Signup" class="social-media flex my-2 justify-center items-center">
             <i class="uil uil-twitter social-media-box"></i>
-            <span class="ml-3 font-medium icon-text">Twitterrr</span>
+            <span class="ml-3 font-medium icon-text">Twitter</span>
           </g-link>
     
         </div>
