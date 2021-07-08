@@ -51,7 +51,7 @@
       </div>
     </div>
   </div>
-      <div class="py-4 px-20 lg:hidden">
+      <div class="py-4 px-5 lg:hidden">
          <input type="submit"  value="Submit" class="py-3 text-center text-base btn-form font-light outline-none">
       </div>
 </div>
