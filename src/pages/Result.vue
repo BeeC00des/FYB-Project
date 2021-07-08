@@ -1,5 +1,5 @@
 <template>
-<layout>
+
 <div class="w-full flex flex-col flex-no-wrap h-screen bg-color">
   <!-- <div class="lg:px-20 px-5 py-8">
     <g-link to="/">
@@ -48,7 +48,7 @@
     </div>
   </div>
 </div>
-</layout>
+
 </template>
 
 <script>
