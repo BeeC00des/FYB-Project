@@ -45,9 +45,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-  .bg-color{
-    background-color:#FDF8F4 ;
-  }
+  
   .input{
    width:100%;
    border-radius:5px;
@@ -55,23 +53,5 @@ export default {
    @include sm{
      width:100%;
    }
-   }
-   .btn-form{
-    padding: 10px 40px;
-    height: 45px;
-    border-radius: 10px;
-    text-align: center;
-    background-color:#0654DB;
-    @apply flex;
-    @apply text-white;
-    @apply font-bold;
-  }
-
-  .submit-btn{
-    @include sm{
-      display:none;
-    }
-  }
-
-  
+}
 </style>

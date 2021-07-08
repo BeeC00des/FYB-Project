@@ -66,9 +66,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-  .bg-color{
-    background-color:#FDF8F4 ;
-  }
    .btn-notify{
     padding: 10px 40px;
     height: 45px;

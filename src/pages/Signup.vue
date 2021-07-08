@@ -61,15 +61,5 @@ export default {
    border-radius:5px;
    background-color:#E5E5E5;
    }
-   .btn-form{
-    padding: 10px 40px;
-    height: 45px;
-    border-radius: 10px;
-    text-align: center;
-    background-color:#0654DB;
-    @apply flex;
-    @apply text-white;
-    @apply font-bold;
-  }
   
 </style>
