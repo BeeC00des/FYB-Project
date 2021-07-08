@@ -65,6 +65,10 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-  
+  .submit-btn{
+    @include sm{
+      display:none;
+    }
+  }
   
 </style>

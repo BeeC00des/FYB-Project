@@ -1,10 +1,11 @@
 <template>
+<layout>
 <div class="w-full flex flex-col flex-no-wrap h-screen bg-color">
-  <div class="lg:px-20 px-5 py-8">
+  <!-- <div class="lg:px-20 px-5 py-8">
     <g-link to="/">
           <p class="logo-style">Cardio</p>
     </g-link>
-  </div>
+  </div> -->
   <div class=" w-full mx-auto lg:px-12 px-0">
     <div class="lg:w-8/12 w-full mx-auto items-center justify-center result-card px-5 py-5 ">
       <div class="text-center mb-2">
@@ -47,6 +48,7 @@
     </div>
   </div>
 </div>
+</layout>
 </template>
 
 <script>

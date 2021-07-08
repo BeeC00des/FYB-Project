@@ -54,4 +54,9 @@ export default {
      width:100%;
    }
 }
+.submit-btn{
+    @include sm{
+      display:none;
+    }
+  }
 </style>

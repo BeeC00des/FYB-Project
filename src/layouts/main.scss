@@ -62,7 +62,7 @@
     color:rgba(32, 55, 94, 0.75);
 }
 
-    .bg-color{
+.bg-color{
     background-color:#FDF8F4 ;
   }
   .input{
@@ -80,8 +80,3 @@
     @apply font-bold;
   }
 
-  .submit-btn{
-    @include sm{
-      display:none;
-    }
-  }
