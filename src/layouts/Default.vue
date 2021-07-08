@@ -45,7 +45,7 @@
               <g-link to="/home">Home</g-link>
               <g-link to="/Contact">Contact</g-link>
               <g-link to="/Login">Login</g-link>
-              <g-link to="/Sign up">Sign up</g-link>
+              <g-link to="/Signup">Sign up</g-link>
               <g-link to="/Register">Register</g-link>
               <g-link to="/Test">Test Input</g-link>
               <g-link to="/Result">Result</g-link>
