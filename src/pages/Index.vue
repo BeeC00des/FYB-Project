@@ -198,13 +198,15 @@ html {
       height: 400px;
       background-color: #ffffff;
       border-radius: 15px;
-    }
-     @include sm {
-        height:auto;
+      @include sm{
         border-top-left-radius: 15px;
        border-top-right-radius: 15px;
        border-bottom-left-radius: 0px;
        border-bottom-right-radius: 0px;
+      }
+    }
+     @include sm {
+        height:auto;   
      } 
   } 
 }
