@@ -12,7 +12,7 @@
             <g-link to="/Signup" class="btn-primary2"> Explore </g-link>
         </div>
       </div>
-      <div class="flex lg:w-7/12 w-full lg:mt-32 mt-3">
+      <div class="flex lg:w-7/12 w-full lg:mt-32 mt-5">
         <img src="../assets/img/heart.png" alt="Heart treament" />
       </div>
     </div> 
@@ -201,6 +201,10 @@ html {
     }
      @include sm {
         height:auto;
+        border-top-left-radius: 15px;
+       border-top-right-radius: 15px;
+       border-bottom-left-radius: 0px;
+       border-bottom-right-radius: 0px;
      } 
   } 
 }
