@@ -7,7 +7,7 @@
   </div>
   <div class="lg:flex w-11/12 mx-auto lg:px-12 px-3">
     <div class="lg:w-6/12">
-      <h1 class="header2 mb-3 px-12">Kindly fill the form below</h1>
+      <h1 class="header2 mb-3 lg:px-12 px-3">Kindly fill the form below</h1>
       <div class="input-section lg:w-10/12 w-full mx-auto">
         <div class="py-4 lg:flex">
          <input type="text" id="textInput" placeholder="Age" class="py-3 lg:w-6/12 w-full px-5 text-tiny input font-normal outline-none lg:mr-12 mr-0 lg:mb-0 mb-10">
@@ -51,7 +51,7 @@
     </div>
     
   </div>
-    <div class="py-4 px-5 lg:hidden">
+    <div class="py-4 px-6 lg:hidden">
         <input type="submit"  value="Submit" class="py-3 text-center text-base btn-form font-light outline-none">
     </div>
 </div>

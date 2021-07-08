@@ -30,7 +30,7 @@
          <img src="../assets/img/map.png" alt="Location"/>
        </div>
     </div>
-    <div class="py-8 lg:hidden px-5">
+    <div class="py-8 lg:hidden">
           <input type="submit"  value="Submit" class="py-3 text-center text-base btn-form font-light outline-none">
       </div>
   </div>

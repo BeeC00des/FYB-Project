@@ -20,10 +20,10 @@ export default function (Vue, { router, head, isClient }) {
     name: 'keywords',
     content: 'Heart disease, prediction, cardiovascular, Heart issue'
   }),
-  head.script.push({
+  /* head.script.push({
     src: 'https://static.mobilemonkey.com/js/1309354802459946.js',
     body: true
-  })
+  }) */
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 }
