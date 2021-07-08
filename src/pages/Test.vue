@@ -7,7 +7,7 @@
   </div>
   <div class="lg:flex w-11/12 mx-auto lg:px-12">
     <div class="lg:w-6/12 w-full">
-      <h1 class="header2 mb-3 px-12">Enter test result</h1>
+      <h1 class="header2 mb-3 px-5">Enter test result</h1>
       <div class="input-section px-3 lg:w-10/12 w-full mx-auto">
         <div class="py-4 lg:flex">
          <input type="text" id="textInput" placeholder="Trestbps" class="py-3 lg:w-6/12 w-full px-5 text-tiny input font-normal outline-none lg:mr-12 mr-0 lg:mb-0 mb-10">
@@ -46,7 +46,7 @@
           <input type="text" id="textInput" placeholder="Slope" class="py-3 w-full  px-5 text-tiny input font-normal outline-none">
         </div>
         <div class="py-4">
-          <input type="text" id="textInput" placeholder="Target" class="py-3 w-full  px-5 text-tiny input font-normal outline-none">
+          <input type="text" id="textInput" placeholder="Patient id number" class="py-3 w-full  px-5 text-tiny input font-normal outline-none">
         </div>
       </div>
     </div>

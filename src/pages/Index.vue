@@ -22,7 +22,7 @@
       <div class="lg:w-3/12 w-full image-container lg:mx-12 mx-0  lg:my-0 my-5 flex items-center">
         <img src="../assets/img/heart-beat.png" alt="Heart" class="img-heart">
       </div>
-      <div class="lg:w-6/12 w-full lg:ml-16  lg:px-0 px-5 text-white">
+      <div class="lg:w-6/12 w-full lg:ml-16 lg:px-0 px-5 py-5 lg:py-0 text-white">
         <h5 class="lg:text-3xl text-2xl font-bold">Heart Disease Overview</h5>
         <p class="text-base py-3 leading-relaxed">
           The heart controls the pumping and circulation of blood while clearing harmful waste substances in the body.
@@ -41,9 +41,9 @@
 
     <div class="lg:flex lg:flex-row w-full justify-between px-5 py-5 lg:px-20 section-3 lg:mt-10 mt-0">
       <div class="lg:flex  lg:mt-5 mt-2 mb-5 lg:mt-0 mx-auto  w-full lg:p-10 p-5">
-      <div class="lg:w-9/12 lg:ml-16 ml-0 w-full ">
+      <div class="lg:w-9/12 lg:ml-16 ml-0 w-full">
         <h5 class="lg:pb-7 pb-3 lg:text-3xl text-2xl font-bold text-color-primary lg:text-center text-center">Causes Of Heart Disease </h5>
-        <div class="lg:flex w-11/12">
+        <div class="lg:flex lg:w-11/12 w-full">
           <div class="lg:w-4/12 w-full text-left py-5">
             <div class="icon-shape icon-color1 mb-2 flex justify-center items-center">
               <span class="material-icons icon-style">smoking_rooms</span>
