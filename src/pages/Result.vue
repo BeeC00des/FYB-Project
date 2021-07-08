@@ -26,7 +26,7 @@
          </div>
       </div>
     </div>
-    <div class="lg:w-9/12 mx-auto mt-12 lg:flex px-5 lg:px-0 py-5 lg:py-0">
+    <div class="lg:w-9/12 mx-auto mt-12 lg:flex px-5 lg:px-0 pb-5 lg:py-0">
       <div class="notify-card lg:w-6/12 w-full px-5 py-3 text-white lg:mr-32 mr-0">
          <h1 class="header3 py-1"> Gaurdians message</h1>
          <p> <span>{{patientname}}</span> heart status : Heart disease is present. Visit the cardiac department for immediate treatment.</p>
