@@ -59,10 +59,10 @@ export default {
   data: function () {
     return {
       patientname : "Adegbomojo Faith",
-      naiveResult: "80%",
-      supportResult: "82%",
-      decisionResult: "90%",
-      nearestResult: "92%",
+      naiveResult: "80.3%",
+      supportResult: "67.2%",
+      decisionResult: "75.4%",
+      nearestResult: "75.4%",
     }
   },
 };
