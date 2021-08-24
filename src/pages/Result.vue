@@ -59,10 +59,10 @@ export default {
   data: function () {
     return {
       patientname : "Adegbomojo Faith",
-      naiveResult: "80.3%",
+      naiveResult: "89.95%",
       supportResult: "67.2%",
-      decisionResult: "75.4%",
-      nearestResult: "75.4%",
+      decisionResult: "100%",
+      nearestResult: "60.0%",
     }
   },
 };
@@ -74,8 +74,8 @@ export default {
     border-radius: 10px;
     text-align: center;
     background-color:#ffffff;
-    @apply flex;
-    @apply font-bold;
+    /* @apply flex;
+    @apply font-bold; */
   }
   .result-card{
      background-color: #ffffff;
